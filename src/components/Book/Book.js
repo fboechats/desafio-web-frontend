@@ -81,7 +81,7 @@ const {
     </Container>
     <CtaButtons>
         <BookPages>
-          {`${pageCount} pages`}
+          {pageCount && `${pageCount} pages`}
         </BookPages>
         <BuyButton target='_blank' href={buyLink}>
           BUY
